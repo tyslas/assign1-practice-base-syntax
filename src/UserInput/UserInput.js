@@ -4,7 +4,10 @@ const userInput = (props) => {
   return (
     <div>
       <label>
-        {props.username} Please input your favorite food: <input type="text" onChange={props.changed} />
+        {props.username} Your favorite character from Wedding Crashers: <input
+          type="text"
+          onChange={props.changed}
+          value={props.currName} />
       </label>
     </div>
   )
