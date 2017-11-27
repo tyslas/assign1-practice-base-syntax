@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+}
+.appHeader {
+  width: 80%;
+  margin: 16px auto;
+  border: 1px solid #FF7227;
+  box-shadow: 0 3px 3px #FF9100;
+  padding: 16px;
+  text-align: center;
+}
