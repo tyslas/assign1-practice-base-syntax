@@ -10,9 +10,15 @@ class App extends Component {
           <h1>Learning React on Udemy:</h1>
           <h3>Assignment 1: Time to Practice - The Base Syntax</h3>
         </div>
-        <UserOutput />
-        <UserOutput />
-        <UserOutput />
+        <UserOutput
+          username='Kwon'
+        />
+        <UserOutput
+          username='Chunks'
+        />
+        <UserOutput
+          username='Neutral'
+        />
       </div>
     );
   }
